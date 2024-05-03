@@ -1,6 +1,9 @@
 import reflex as rx
-
-def header() -> rx.Component:
+from link_bio.components.link_button import link_button
+def links() -> rx.Component:
     return rx.vstack(
-        rx.button("Linkeding", kind="link", href="https://www.linkedin.com/in/fernandez-gonzalo/"),
+        link_button(),
+        link_button(),
+        link_button(),
+        link_button()
     )
