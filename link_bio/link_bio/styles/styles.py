@@ -53,7 +53,13 @@ BASE_STYLE = {
     },
     rx.link: {
         "color": TextColor.BODY.value,
-        "text_decoration": "none",
+        "text_decoration": "none", # Remove underline
         "_hover": {}
     }
 }
+
+button_title_style = dict(
+    font_family=Font.TITLE.value,
+    font_weight=FontWeight.MEDIUM.value,
+    color=TextColor.HEADER.value,
+)
