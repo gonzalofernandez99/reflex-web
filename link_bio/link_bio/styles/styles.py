@@ -58,6 +58,19 @@ BASE_STYLE = {
     }
 }
 
+
+navbar_title_style = dict(
+    font_family=Font.LOGO.value,
+    font_weight=FontWeight.MEDIUM.value,
+    font_size=Size.LARGE.value
+)
+
+title_style = dict(
+    width="100%",
+    padding_top=Size.DEFAULT.value,
+    font_size=Size.LARGE.value
+)
+
 button_title_style = dict(
     font_family=Font.TITLE.value,
     font_weight=FontWeight.MEDIUM.value,
