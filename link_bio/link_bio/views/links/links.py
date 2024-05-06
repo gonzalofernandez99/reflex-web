@@ -1,10 +1,8 @@
 import reflex as rx
 import link_bio.constants as const
-from link_bio.routes import Route
 from link_bio.components.link_button import link_button
 from link_bio.components.title import title
 from link_bio.styles.styles import Color, Spacing
-from link_bio.state.PageState import PageState
 
 
 def index_links() -> rx.Component:
